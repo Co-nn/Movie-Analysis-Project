@@ -5,8 +5,7 @@
 - [Connor's Notebook](https://github.com/Co-nn/Movie-Analysis-Project/tree/main/Connor/Untitled.ipynb)
 - [Cooper's Notebook](https://github.com/Co-nn/Movie-Analysis-Project/tree/main/Cooper/Movie%20Analysis.ipynb)
 - [Final Notebook](https://github.com/Co-nn/Movie-Analysis-Project/blob/main/Main.ipynb)
-- [Graphs](https://github.com/Co-nn/Movie-Analysis-Project/tree/
-main/Graphs)
+- [Graphs](https://github.com/Co-nn/Movie-Analysis-Project/tree/main/Graphs)
 ## Table of Contents
 - [Overview](#overview)
 - [Business Problem](#business-problem)
