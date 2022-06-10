@@ -15,7 +15,7 @@
 - [Future Work](#future-work)
 - [For More Information](#for-more-information)
 ## Overview
-The movie business is a multibillion dollar industry that estimated to have made roughly 36.8 billion as of 2021. On average, movies made in the U.S tend to make around 373.2 million worldwide. While money is important, popularity and ratings are what sustain a business. If a company is popular, money will follow. Using Python, we extracted data from movie websites to produce models on what makes movies well-liked among the public. Sorting the data by genre, we were able to showcase the most popular genres and their characteristics. 
+The movie business is a multibillion dollar industry that estimated to have made roughly [36.8 billion](https://www.forbes.com/sites/bradadgate/2022/03/17/overview-of-the-entertainment-market-in-2021-coming-out-of-covid-19/?sh=2464a93a519c) as of 2021. On average, movies made in the U.S tend to make around [373.2 million worldwide](https://stephenfollows.com/how-movies-make-money-hollywood-blockbusters/#:~:text=The%20average%20movie%20in%20my,office%20gross%20of%20%24373.2%20million.). While money is important, popularity and ratings are what sustain a business. If a company is popular, money will follow. Using Python, we extracted data from movie websites to produce models on what makes movies well-liked among the public. Sorting the data by genre, we were able to showcase the most popular genres and their characteristics. 
 
 ## Business Problem
 Microsoft is planning on creating a movie company and needs help to figure out what kinds of films they should produce. Using the data we found from IMDB (Internet Movie Database), TMDB (The Movie Database), and The Numbers website, we explored what types of movies were the most important to make. Then, proceeded to implement this data into graphs that conveyed the important traits of an average film. With this, we are able to portray to Microsoft that they should focus on popularity rather than profit.
@@ -57,14 +57,20 @@ comparing the popularity of a series of movies to a stand along movie
  
 ## Repo Map
 ```
-├── Connor                                      <- Rough Working Directory
-|   ├── Graphs                                  <- Rough Graphs
-|   └── Untitled.ipynb                          <- Rough Jupyter Notebook
-├── Cooper                                      <- Rough Working Directory
-|   └── Movie Analysis.ipynd                    <- Rough Jupyter Notebook
-├── Graphs                                      <- Final Graphs                                     
-├── .gitignore                                  <- Standard python gitignore file
-├── Cooper McCombs and Connor McClain.pdf       <- Final Slides Presentation
-├── Main.ipynb                                  <- Final Jupyter Notebook
-└── README.md                                   <- You Are Here   X
+├── Connor                                           <- Rough Working Directory
+|   ├── Graphs                                       <- Rough Graphs
+|   └── Untitled.ipynb                               <- Rough Jupyter Notebook
+├── Cooper                                           <- Rough Working Directory
+|   └── Movie Analysis.ipynd                         <- Rough Jupyter Notebook
+├── Graphs                                           <- Final Graphs        
+|   ├── Average_Budget_Cost_per_Genre.png            <- Comparison between Average Production Budget and Genre
+|   ├── Budget_Cost_per_Average_Vote.png             <- Correlation between Popularity and Production Budget
+|   ├── Correlation_Between_Budget_and_Gross.png     <- Correlation between Production Budget and Worldwide Gross
+|   ├── Genres_by_Average_Runtime(minutes).png       <- Comparison between Average Runtime(minutes) and Genre
+|   ├── Top_6_Most_Popular_Genres_to_Produce.png     <- Comparison between Percent of Production and Genre
+|   └── VoteCountScore.png                           <- Comparison between Vote Count Score and Genre
+├── .gitignore                                       <- Standard python gitignore file
+├── Cooper McCombs and Connor McClain.pdf            <- Final Slides Presentation
+├── Main.ipynb                                       <- Final Jupyter Notebook
+└── README.md                                        <- You Are Here   X
 ```
